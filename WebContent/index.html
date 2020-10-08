@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Information</title>
+</head>
+<body>
+<h1>Add New Employee</h1>
+<form action="SaveServlet" method="POST">
+<table border="1">
+
+<!-- name grade address mobile bank -->
+
+<tr><td>Name : </td><td><input type="text" name="name"/></td></tr>
+<tr><td>Grade : </td><td><input type="text" name="grade"/></td></tr>
+<tr><td>Address : </td><td><input type="text" name="address"/></td></tr>
+<tr><td>Mobile Number : </td><td><input type="text" name="mobile"/></td></tr>
+<tr><td>Bank Account : </td><td><input type="text" name="bank"/></td></tr>
+<tr><td colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="save"/></td></tr>
+</table>
+</form>
+<br/>
+<a href="ViewServlet">View All Employee</a><br/>
+</body>
+</html>
